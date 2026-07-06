@@ -34,29 +34,11 @@ La estacionariedad es uno de los supuestos fundamentales para la construcción d
 
 ---
 
-## Tipos de estacionariedad
-
-### Estacionaria en nivel
-
-$$y_t=\mu+u_t$$
-
-La serie fluctúa alrededor de una media constante.
-
----
-
-### Estacionaria alrededor de una tendencia
-
-$$y_t=\beta_0+\beta_1t+u_t$$
-
-La serie presenta una tendencia determinística, pero las desviaciones respecto a dicha tendencia son estacionarias.
-
----
-
-### Tendencia estocástica
-
-$$y_t=y_{t-1}+u_t$$
-
-Los choques tienen efectos permanentes y la serie posee una raíz unitaria.
+| Tipo de prueba sobre la serie               | Modelo ADF                                        |
+| ------------------------------------------- | ------------------------------------------------- |
+| Oscila alrededor de 0                       | $\Delta y_t=\gamma y_{t-1}+\cdots$                |
+| Oscila alrededor de una media distinta de 0 | $\Delta y_t=\alpha+\gamma y_{t-1}+\cdots$         |
+| Presenta una tendencia lineal visible       | $\Delta y_t=\alpha+\beta t+\gamma y_{t-1}+\cdots$ |
 
 ---
 
