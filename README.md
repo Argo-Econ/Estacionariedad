@@ -38,9 +38,7 @@ La estacionariedad es uno de los supuestos fundamentales para la construcción d
 
 ### Estacionaria en nivel
 
-\[
-y_t=\mu+u_t
-\]
+$$y_t=\mu+u_t$$
 
 La serie fluctúa alrededor de una media constante.
 
@@ -48,9 +46,7 @@ La serie fluctúa alrededor de una media constante.
 
 ### Estacionaria alrededor de una tendencia
 
-\[
-y_t=\beta_0+\beta_1t+u_t
-\]
+$$y_t=\beta_0+\beta_1t+u_t$$
 
 La serie presenta una tendencia determinística, pero las desviaciones respecto a dicha tendencia son estacionarias.
 
@@ -58,9 +54,7 @@ La serie presenta una tendencia determinística, pero las desviaciones respecto 
 
 ### Tendencia estocástica
 
-\[
-y_t=y_{t-1}+u_t
-\]
+$$y_t=y_{t-1}+u_t$$
 
 Los choques tienen efectos permanentes y la serie posee una raíz unitaria.
 
@@ -120,17 +114,13 @@ summary(adf)
 
 La hipótesis principal es
 
-\[
-H_0:\gamma=0
-\]
+$$H_0:\gamma=0$$
 
 La serie posee una raíz unitaria.
 
 Si
 
-\[
-\tau<\tau_{crítico}
-\]
+$$\tau<\tau_{crítico}$$
 
 se rechaza la hipótesis nula.
 
